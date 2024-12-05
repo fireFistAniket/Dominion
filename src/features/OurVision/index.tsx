@@ -1,7 +1,7 @@
 "use client";
 import useClickOutSide from "@/hooks/useClickOutSide";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function OurVision() {
   const [showVideoModal, setShowVideoModal] = useState<boolean>(false);
