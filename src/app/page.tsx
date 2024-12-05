@@ -1,6 +1,7 @@
 import AffilateProgram from "@/features/AffilateProgram";
 import BrandMarquee from "@/features/BrandMarquee";
 import DominionVision from "@/features/DominionVision";
+import HomeMarchendise from "@/features/HomeMarchendise";
 import HomeTrainingCourses from "@/features/HomeTrainingCourses";
 import NewsLetter from "@/features/NewsLetter";
 import OurVision from "@/features/OurVision";
@@ -16,6 +17,7 @@ export default function Home() {
       <OurVision />
       <DominionVision />
       <HomeTrainingCourses />
+      <HomeMarchendise />
       <SpotifyPodcast />
       <AffilateProgram />
       <RugbyForDummies />

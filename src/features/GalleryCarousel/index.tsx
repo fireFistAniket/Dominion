@@ -48,12 +48,12 @@ export default function GalleryCarousel() {
   );
 
   return (
-    <section className="bg-[url('/custom-bg/gallery-slider.png')] bg-no-repeat bg-cover flex flex-col gap-16 items-center">
+    <section className="bg-[url('/custom-bg/gallery-slider.png')] bg-no-repeat bg-cover flex flex-col gap-16 items-center px-4 py-9">
       <div className="relative flex justify-center">
         <Carousel
           setApi={setApi}
           plugins={[plugin.current]}
-          className="w-full max-w-[72vw] mt-[10%]"
+          className="w-full max-w-[72vw] mt-[10%] py-10"
           opts={{
             align: "center",
             loop: true,
