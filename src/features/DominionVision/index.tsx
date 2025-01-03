@@ -23,7 +23,7 @@ export default function DominionVision() {
           <div className="absolute top-0 right-0 w-full h-full bg-site-black translate-x-4 -translate-y-4"></div>
         </div>
         <div className="flex flex-col">
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 2 }).map((_, index) => (
             <div
               className="py-6 lg:py-8 border-b border-black/25 flex flex-col items-start gap-3"
               key={index}

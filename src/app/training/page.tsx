@@ -1,6 +1,6 @@
 import HomeTrainingCourses from "@/features/HomeTrainingCourses";
 import LiveTraining from "@/features/LiveTraining";
-import NewsLetter from "@/features/NewsLetter";
+// import NewsLetter from "@/features/NewsLetter";
 import SpotifyPodcast from "@/features/SpotifyPodcast";
 import TrainingCourses from "@/features/TrainingCourses";
 import TrainingHero from "@/features/TrainingHero";
@@ -11,11 +11,11 @@ export default function Training() {
     <>
       <TrainingHero />
       <TrainingCourses />
-      <TrainingMethod />
+      {/* <TrainingMethod /> */}
       <HomeTrainingCourses />
       <LiveTraining />
-      <SpotifyPodcast />
-      <NewsLetter />
+      {/* <SpotifyPodcast /> */}
+      {/* <NewsLetter /> */}
     </>
   );
 }

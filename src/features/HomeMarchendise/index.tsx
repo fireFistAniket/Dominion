@@ -43,11 +43,12 @@ export default function HomeMarchendise() {
       <h1 className="text-4xl lg:text-5xl font-bold text-center text-site-saffron">
         Merchandise
       </h1>
-      <div className="flex overflow-hidden w-full max-w-5xl">
+      <div className="flex overflow-hidden w-full max-w-5xl items-end">
         {merchandise.map((img, index) => (
           <motion.div
             key={index}
             initial={{ width: "20.625rem" }}
+            onClick={() => setCenterIndex(index)}
             animate={{
               width:
                 index === centerIndex

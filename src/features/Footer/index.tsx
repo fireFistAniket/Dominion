@@ -1,4 +1,3 @@
-import Email from "@/icons/Email";
 import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
 import LinkedIn from "@/icons/LinkedIn";
@@ -42,24 +41,6 @@ export default function Footer() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod sit.
             </p>
-            <div className="flex flex-col gap-3">
-              <h3 className="text-base font-semibold text-site-white">
-                Social Media Links
-              </h3>
-              <div className="flex gap-2">
-                {socialLinks.map((link, index) => (
-                  <Link
-                    href="/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                    key={index}
-                    className="bg-site-white/10 p-2 inline-flex items-center"
-                  >
-                    {link.icon}
-                  </Link>
-                ))}
-              </div>
-            </div>
           </div>
           <div className="flex flex-col gap-16">
             <h1
@@ -67,7 +48,7 @@ export default function Footer() {
             >
               love from Israel &amp; maria folau
             </h1>
-            <div className="flex flex-col gap-5">
+            {/* <div className="flex flex-col gap-5">
               <h3 className="font-bold text-base text-site-white">
                 Subscribe to our newsletter
               </h3>
@@ -84,6 +65,24 @@ export default function Footer() {
                 >
                   Subscribe Now
                 </button>
+              </div>
+            </div> */}
+            <div className="flex flex-col gap-3">
+              <h3 className="text-base font-semibold text-site-white">
+                Social Media Links
+              </h3>
+              <div className="flex gap-2">
+                {socialLinks.map((link, index) => (
+                  <Link
+                    href="/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                    key={index}
+                    className="bg-site-white/10 p-2 inline-flex items-center"
+                  >
+                    {link.icon}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>

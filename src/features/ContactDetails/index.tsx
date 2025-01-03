@@ -36,7 +36,7 @@ export default function ContactDetails() {
           </p>
         </div>
         <div className="flex md:grid grid-cols-2 flex-col gap-10">
-          <div className="flex flex-col gap-6">
+          {/* <div className="flex flex-col gap-6">
             <h2 className="text-site-saffron text-base md:text-xl font-semibold">
               CALL US
             </h2>
@@ -52,7 +52,7 @@ export default function ContactDetails() {
             <p className="text-site-white text-sm md:text-base font-extralight">
               0004, New T-1000 Str First Avenue
             </p>
-          </div>
+          </div> */}
           <div className="flex flex-col gap-6">
             <h2 className="text-site-saffron text-base md:text-xl font-semibold">
               EMAIL ID

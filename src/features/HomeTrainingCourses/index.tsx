@@ -14,7 +14,7 @@ export default function HomeTrainingCourses() {
       <div className="flex flex-col gap-10 lg:gap-12">
         <div className="flex flex-col items-center justify-center gap-7">
           <h2 className="text-sm lg:text-base font-medium tracking-[0.2em] text-site-saffron">
-            Top Picked
+            Top Picks
           </h2>
           <h1 className="font-semibold text-site-white text-2xl lg:text-4xl">
             Training Courses
