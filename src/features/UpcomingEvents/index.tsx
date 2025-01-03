@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function UpcomingEvents() {
   return (
-    <section className="flex py-14 px-4 lg:py-24 lg:px-16 md:items-center md:justify-center">
+    <section className="flex py-14 px-4 lg:py-24 lg:px-16 md:items-center md:justify-center lg:container lg:mx-auto">
       <Tabs defaultValue="account" className="w-full">
         <div className="flex flex-col sm:flex-row sm:justify-between gap-8 md:mb-20">
           <div className="flex flex-col gap-7">

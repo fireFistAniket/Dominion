@@ -29,7 +29,7 @@ export default function TrainingHero() {
           src="/training/cover/training-cover.png"
           width={1114}
           height={969}
-          className="lg:w-[50vw] object-cover"
+          className="lg:w-[50vw] object-cover h-[40rem] lg:h-auto"
           alt=""
         />
       </div>

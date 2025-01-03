@@ -21,8 +21,8 @@ export default function ContactDetails() {
   ];
 
   return (
-    <section className="bg-site-black flex flex-col lg:flex-row lg:justify-center px-4 lg:px-40 py-9 gap-20">
-      <div className="flex flex-col gap-20">
+    <section className="bg-site-black flex flex-col lg:flex-row lg:justify-between px-4 lg:px-40 py-9 gap-20">
+      <div className="flex flex-col gap-20 xl:max-w-xl justify-evenly">
         <div className="flex flex-col gap-10">
           <h3 className="text-site-saffron text-base md:text-2xl font-medium">
             Contact Us
@@ -122,9 +122,9 @@ export default function ContactDetails() {
           </div>
           <button
             type="button"
-            className="py-4 px-6 text-xl font-bold shadow-[0px_2px_4px_-1px_#00000012] self-center text-site-white bg-[linear-gradient(135deg,_#FFAF99_0%,_#FF8F71_100%)] rounded-lg"
+            className="py-4 px-6 text-xl font-bold shadow-[0px_2px_4px_-1px_#00000012] self-center text-site-black bg-site-white capitalize"
           >
-            SEND MESSAGE
+            Send Message
           </button>
         </div>
       </div>

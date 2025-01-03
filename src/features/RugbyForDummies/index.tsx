@@ -8,6 +8,13 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 
@@ -64,6 +71,15 @@ export default function RugbyForDummies() {
                     type="email"
                     className="outline-none text-site-black/50 text-sm lg:text-base"
                   />
+                  <Select>
+                    <SelectTrigger className="outline-none text-site-black/50 text-sm lg:text-base">
+                      <SelectValue placeholder="Choose Sports" />
+                    </SelectTrigger>
+                    <SelectContent className="outline-none text-site-black/50 text-sm lg:text-base">
+                      <SelectItem value="light">Rugby</SelectItem>
+                      <SelectItem value="dark">NetBall</SelectItem>
+                    </SelectContent>
+                  </Select>
                   <Input
                     placeholder="Enter your phone number"
                     type="tel"

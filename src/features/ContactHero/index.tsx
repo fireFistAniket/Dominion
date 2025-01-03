@@ -13,7 +13,7 @@ export default function ContactHero() {
               height={360}
               className="min-h-[45vh] lg:h-auto object-cover lg:w-[75vw] relative z-10"
             />
-            <div className="hidden md:block h-[40vh] absolute top-1/2 -translate-y-1/2 left-0 w-full bg-site-lavender"></div>
+            <div className="hidden md:block h-[40vh] absolute top-1/2 -translate-y-1/2 left-0 w-full bg-site-saffron" />
           </div>
           <div className="absolute lg:static bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 bg-site-black/80 z-10 flex flex-col items-center justify-end md:justify-center w-full p-4 gap-6 h-[50%]">
             <h1 className="font-semibold text-site-white text-4xl text-center">

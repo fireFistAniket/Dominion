@@ -75,7 +75,7 @@ export default function MemorableMomments() {
           Lorem ipsum dolor sit amet consectetur. Volutpat
         </p>
       </div>
-      <Accordion
+      {/* <Accordion
         type="single"
         collapsible
         className="mx-4 block lg:hidden self-stretch"
@@ -126,8 +126,60 @@ export default function MemorableMomments() {
             </AccordionContent>
           </AccordionItem>
         ))}
-      </Accordion>
-      <Tabs
+      </Accordion> */}
+
+      <div className="mt-4 grid grid-flow-row gap-5 mx-4 lg:hidden self-stretch">
+        <div className="grid grid-cols-2 place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={182}
+            height={178}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG1.png"}
+          />
+          <Image
+            alt=""
+            width={182}
+            height={178}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG2.png"}
+          />
+        </div>
+        <div className="grid grid-flow-row place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={380}
+            height={285}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG3.png"}
+          />
+          <Image
+            alt=""
+            width={380}
+            height={285}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG4.png"}
+          />
+        </div>
+        <div className="grid grid-cols-2 place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={182}
+            height={178}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG5.png"}
+          />
+          <Image
+            alt=""
+            width={182}
+            height={178}
+            className="object-cover w-full"
+            src={"/gallery-chapter/Gallery-Chapter-IMG6.png"}
+          />
+        </div>
+      </div>
+
+      {/* <Tabs
         defaultValue={chapeterData[0].key}
         className="hidden lg:block mx-[8.33vw]"
       >
@@ -186,7 +238,57 @@ export default function MemorableMomments() {
             </div>
           </TabsContent>
         ))}
-      </Tabs>
+      </Tabs> */}
+      <div className="lg:grid grid-cols-3 place-items-stretch gap-10 hidden mx-[8.33vw]">
+        <div className="grid grid-rows-2 place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={466}
+            height={340}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG1.png"}
+          />
+          <Image
+            alt=""
+            width={466}
+            height={340}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG2.png"}
+          />
+        </div>
+        <div className="grid grid-flow-row place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={510}
+            height={648}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG3.png"}
+          />
+          <Image
+            alt=""
+            width={510}
+            height={648}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG4.png"}
+          />
+        </div>
+        <div className="grid grid-rows-2 place-items-stretch gap-4">
+          <Image
+            alt=""
+            width={543}
+            height={258}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG5.png"}
+          />
+          <Image
+            alt=""
+            width={543}
+            height={258}
+            className="object-cover"
+            src={"/gallery-chapter/Gallery-Chapter-IMG6.png"}
+          />
+        </div>
+      </div>
     </section>
   );
 }

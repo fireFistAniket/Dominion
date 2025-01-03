@@ -5,11 +5,11 @@ export default function TrainingCourses() {
   return (
     <section className="bg-[url('/custom-bg/training-courses.png')] bg-cover bg-no-repeat bg-center flex justify-center flex-col-reverse lg:flex-row relative px-4 lg:gap-20 lg:py-40 lg:px-52">
       <div className="flex flex-col gap-6 lg:gap-16 py-4">
-        <h3 className="text-sm lg:text-xl font-semibold text-site-saffron">
+        <h3 className="text-sm lg:text-xl font-semibold text-site-saffron capitalize">
           1:1 consultation sessions
         </h3>
         <h1 className="text-4xl lg:text-5xl inline-flex flex-col gap-6 font-bold text-site-white capitalize">
-          CUSTOM FITNESS &amp; TRAINING COURSES PLANS
+          Custom Fitness &amp; Training Courses Plans
         </h1>
         <p className="text-sm lg:text-2xl text-site-white lg:max-w-xl">
           Lorem ipsum dolor sit amet consectetur. Viverra eu urna tortor

@@ -12,16 +12,8 @@ export const navlinks: NavLinkType[] = [
     href: "/training",
   },
   {
-    label: "Merchandise ",
-    href: "#",
-  },
-  {
     label: "Gallery",
     href: "/gallery",
-  },
-  {
-    label: "Blogs ",
-    href: "#",
   },
   {
     label: "Contact ",
