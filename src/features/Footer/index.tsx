@@ -3,6 +3,7 @@ import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
 import LinkedIn from "@/icons/LinkedIn";
 import Twitter from "@/icons/Twitter";
+import Youtube from "@/icons/Youtube";
 import { navlinks } from "@/lib/navlinks";
 import { Dancing_Script } from "next/font/google";
 import Image from "next/image";
@@ -27,7 +28,7 @@ export default function Footer() {
       icon: <Instagarm />,
     },
     {
-      icon: <LinkedIn />,
+      icon: <Youtube />,
     },
   ];
 
@@ -70,7 +71,7 @@ export default function Footer() {
               </div>
             </div>
             <h1 className="text-sm md:text-base tracking-wider text-site-white hidden md:block md:mt-4">
-              &copy;2024 Dominion. all rights reserved
+              &copy;2025 Dominion. all rights reserved
             </h1>
           </div>
           <div className="flex flex-col gap-16">
@@ -88,7 +89,7 @@ export default function Footer() {
                   <Link
                     href={link.href}
                     key={index}
-                    className={`hover:text-site-saffron hover:font-semibold text-base font-normal ${
+                    className={`hover:text-site-saffron hover:font-semibold text-base font-normal transition-all duration-300 ${
                       isActiveRoute(link.href)
                         ? "text-site-saffron font-semibold"
                         : "text-site-white"

@@ -3,6 +3,7 @@ import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
 import LinkedIn from "@/icons/LinkedIn";
 import Twitter from "@/icons/Twitter";
+import Youtube from "@/icons/Youtube";
 import Link from "next/link";
 
 export default function ContactDetails() {
@@ -17,7 +18,7 @@ export default function ContactDetails() {
       icon: <Instagarm />,
     },
     {
-      icon: <LinkedIn />,
+      icon: <Youtube />,
     },
   ];
 

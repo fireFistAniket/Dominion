@@ -6,8 +6,8 @@ import HomeTrainingCourses from "@/features/HomeTrainingCourses";
 import OurVision from "@/features/OurVision";
 import RugbyForDummies from "@/features/RugbyForDummies";
 import Slider from "@/features/Slider";
-// import SpotifyPodcast from "@/features/SpotifyPodcast";
-import UpcomingEvents from "@/features/UpcomingEvents";
+import SpotifyPodcast from "@/features/SpotifyPodcast";
+// import UpcomingEvents from "@/features/UpcomingEvents";
 
 export default function Home() {
   return (
@@ -18,9 +18,9 @@ export default function Home() {
       <DominionVision />
       <HomeTrainingCourses />
       {/* <HomeMarchendise /> */}
-      {/* <SpotifyPodcast /> */}
       <AffilateProgram />
-      <UpcomingEvents />
+      <SpotifyPodcast />
+      {/* <UpcomingEvents /> */}
       <RugbyForDummies />
       {/* <NewsLetter /> */}
     </>

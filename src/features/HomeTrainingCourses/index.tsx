@@ -13,6 +13,33 @@ export default function HomeTrainingCourses({
     "/training/cards/training-3.png",
     "/training/cards/training-4.png",
   ];
+
+  const cardData = [
+    {
+      title: "Fitness Training",
+      cover: "/training/cards/training-2.png",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      tag: "Beginner",
+      color: "#EAB400",
+    },
+    {
+      title: "Fitness Training",
+      cover: "/training/cards/training-3.png",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      tag: "Intermediate",
+      color: "#7AC700",
+    },
+    {
+      title: "Fitness Training",
+      cover: "/training/cards/training-4.png",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      tag: "Expert",
+      color: "#DD0004",
+    },
+  ];
   return (
     <section className="bg-site-black px-4 py-14 lg:py-28 flex items-center justify-center">
       <div className="flex flex-col gap-10 lg:gap-12">
@@ -25,7 +52,7 @@ export default function HomeTrainingCourses({
           </h1>
         </div>
         <div className="flex gap-6 overflow-hidden overflow-x-scroll md:overflow-x-visible md:justify-center max-w-[90vw]">
-          {cardDetails.map((item, index) => (
+          {cardData.map((item, index) => (
             <TrainingCard key={index} data={item} />
           ))}
         </div>

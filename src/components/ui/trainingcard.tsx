@@ -1,26 +1,37 @@
 import Image from "next/image";
-import Link from "next/link";
 
-export default function TrainingCard({ data }: { data: string }) {
+export default function TrainingCard({
+  data,
+}: {
+  data: {
+    cover: string;
+    title: string;
+    description: string;
+    tag: string;
+    color: string;
+  };
+}) {
   return (
-    <div className="flex flex-col gap-6 w-[92vw] md:w-[18.1vw] flex-shrink-0">
+    <div className="flex flex-col gap-6">
       <Image
-        src={data}
+        src={data.cover}
         alt="training"
         width={347}
         height={382}
-        className="w-full"
+        className="w-full object-cover"
       />
-      <p className="text-sm lg:text-base text-site-white line-clamp-2 lg:line-clamp-none">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
-        dignissim.
+      <h4 className="font-semibold xl:text-3xl md:text-2xl text-xl text-white">
+        {data.title}
+      </h4>
+      <p className="text-sm lg:text-base text-site-white line-clamp-2">
+        {data.description}
       </p>
-      {/* <Link
-        href="/training"
-        className="text-site-saffron text-base/[2rem] lg:text-lg font-semibold"
+      <span
+        className={`font-medium xl:text-lg md:text-base text-sm`}
+        style={{ color: data.color }}
       >
-        Explore Now
-      </Link> */}
+        {data.tag}
+      </span>
     </div>
   );
 }

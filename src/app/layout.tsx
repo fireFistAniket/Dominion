@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Manrope } from "next/font/google";
-import WebsiteTemplate from "../../template/WebsiteTemplate";
 import Image from "next/image";
+import WebsiteTemplate from "../template/WebsiteTemplate";
 
 const manrope = Manrope({
   display: "swap",
@@ -49,7 +49,7 @@ export default function RootLayout({
         <WebsiteTemplate>
           {children}
           <Image
-            className="w-[15vw] md:w-[5.88vw] fixed right-[5%] md:right-[2%] bottom-[5%] z-[1100]"
+            className="w-[12vw] md:w-[4vw] fixed right-[5%] md:right-[2%] bottom-[5%] z-[1100]"
             src="/custom-assets/bot.png"
             alt="bot"
             width={113}
