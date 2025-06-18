@@ -12,26 +12,36 @@ export default function TrainingCard({
   };
 }) {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col lg:flex-row gap-6 md:gap-12 xl:gap-16">
       <Image
         src={data.cover}
         alt="training"
-        width={347}
-        height={382}
-        className="w-full object-cover"
+        width={242}
+        height={267}
+        className="w-full lg:w-auto object-cover"
       />
-      <h4 className="font-semibold xl:text-3xl md:text-2xl text-xl text-white">
-        {data.title}
-      </h4>
-      <p className="text-sm lg:text-base text-site-white line-clamp-2">
-        {data.description}
-      </p>
-      <span
-        className={`font-medium xl:text-lg md:text-base text-sm`}
-        style={{ color: data.color }}
+      <div className="flex flex-col gap-6 items-center lg:items-stretch self-center lg:max-w-2xl">
+        <div className="flex gap-4 items-center">
+          <h4 className="font-semibold xl:text-3xl md:text-2xl text-xl text-white">
+            {data.title}
+          </h4>
+          <span
+            className={`font-medium lg:text-base text-sm text-white py-2 px-4 lg:px-6`}
+            style={{ background: data.color }}
+          >
+            {data.tag}
+          </span>
+        </div>
+        <p className="text-sm lg:text-base text-site-white line-clamp-3">
+          {data.description}
+        </p>
+      </div>
+      <button
+        type="button"
+        className="text-sm lg:text-lg px-3 lg:px-7 py-4 text-black font-medium bg-site-saffron self-center border border-site-saffron hover:bg-transparent transition-colors duration-300 hover:text-site-saffron"
       >
-        {data.tag}
-      </span>
+        Explore Now
+      </button>
     </div>
   );
 }

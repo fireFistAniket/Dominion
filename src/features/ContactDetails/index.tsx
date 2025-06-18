@@ -1,24 +1,22 @@
 import { Button } from "@/components/ui/button";
-import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
-import LinkedIn from "@/icons/LinkedIn";
-import Twitter from "@/icons/Twitter";
+import TikTok from "@/icons/TikTok";
 import Youtube from "@/icons/Youtube";
 import Link from "next/link";
 
 export default function ContactDetails() {
   const socialLinks = [
     {
-      icon: <Facebook />,
-    },
-    {
-      icon: <Twitter />,
+      icon: <TikTok />,
+      href: "",
     },
     {
       icon: <Instagarm />,
+      href: "https://www.instagram.com/theizzyandmariashow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     },
     {
       icon: <Youtube />,
+      href: "https://www.youtube.com/@izzymariashow",
     },
   ];
 
@@ -70,7 +68,7 @@ export default function ContactDetails() {
             <div className="flex gap-2">
               {socialLinks.map((link, index) => (
                 <Link
-                  href="/"
+                  href={link.href}
                   target="_blank"
                   referrerPolicy="no-referrer"
                   key={index}

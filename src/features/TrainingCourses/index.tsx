@@ -22,8 +22,7 @@ export default function TrainingCourses() {
           type="button"
           className="px-7 py-4 text-site-black bg-site-saffron font-medium text-sm md:text-lg inline-flex items-center self-start gap-2 hover:bg-transparent hover:border hover:border-site-saffron hover:text-site-saffron transition-colors duration-300"
         >
-          <span>Subscribe Now</span>
-          <MoveUpRight className="text-base" />
+          <span>Explore Now</span>
         </Button>
       </div>
       <div className="flex">
