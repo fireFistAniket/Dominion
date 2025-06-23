@@ -19,7 +19,7 @@ export default function HomeTrainingCourses({
       title: "Fitness Training",
       cover: "/training/cards/training-2.png",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.",
       tag: "Beginner",
       color: "#EAB400",
     },
@@ -27,7 +27,7 @@ export default function HomeTrainingCourses({
       title: "Fitness Training",
       cover: "/training/cards/training-3.png",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.",
       tag: "Intermediate",
       color: "#7AC700",
     },
@@ -35,13 +35,13 @@ export default function HomeTrainingCourses({
       title: "Fitness Training",
       cover: "/training/cards/training-4.png",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dignissim.",
       tag: "Expert",
       color: "#DD0004",
     },
   ];
   return (
-    <section className="bg-site-black px-4 py-14 lg:py-28 flex items-center justify-center">
+    <section className="bg-site-black px-4 py-14 lg:py-28 lg:container flex items-center justify-center mx-auto">
       <div className="flex flex-col gap-10 lg:gap-12">
         <div className="flex flex-col items-center justify-center gap-7">
           <h2 className="text-sm lg:text-base font-medium tracking-[0.2em] text-site-saffron">
@@ -51,20 +51,11 @@ export default function HomeTrainingCourses({
             Training Courses
           </h1>
         </div>
-        <div className="flex gap-6 overflow-hidden overflow-x-scroll md:overflow-x-visible md:justify-center max-w-[90vw]">
+        <div className="flex flex-col gap-6 overflow-hidden overflow-x-scroll md:overflow-x-visible md:justify-center">
           {cardData.map((item, index) => (
             <TrainingCard key={index} data={item} />
           ))}
         </div>
-        {showButton && (
-          <Link
-            href="/training"
-            className="px-4 py-4 text-site-black bg-site-saffron font-medium text-sm lg:text-lg inline-flex items-center self-center gap-2 hover:bg-transparent hover:border hover:border-site-saffron hover:text-site-saffron transition-colors duration-300"
-          >
-            <span>Visit Courses Page</span>
-            <MoveUpRight className="text-base" />
-          </Link>
-        )}
       </div>
     </section>
   );

@@ -2,6 +2,7 @@
 import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
 import LinkedIn from "@/icons/LinkedIn";
+import TikTok from "@/icons/TikTok";
 import Twitter from "@/icons/Twitter";
 import Youtube from "@/icons/Youtube";
 import { navlinks } from "@/lib/navlinks";
@@ -19,16 +20,16 @@ export default function Footer() {
 
   const socialLinks = [
     {
-      icon: <Facebook />,
-    },
-    {
-      icon: <Twitter />,
+      icon: <TikTok />,
+      href: "",
     },
     {
       icon: <Instagarm />,
+      href: "https://www.instagram.com/theizzyandmariashow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     },
     {
       icon: <Youtube />,
+      href: "https://www.youtube.com/@izzymariashow",
     },
   ];
 
@@ -84,7 +85,7 @@ export default function Footer() {
               <h1 className="text-base font-semibold text-site-white">
                 Useful Links
               </h1>
-              <div className="flex gap-4 md:gap-9">
+              <div className="flex flex-col md:flex-row gap-4 md:gap-9">
                 {navlinks.map((link, index) => (
                   <Link
                     href={link.href}
@@ -133,9 +134,9 @@ export default function Footer() {
             </div> */}
           </div>
         </div>
-        <div className="md:hidden flex justify-between items-center gap-5">
+        <div className="md:hidden flex flex-col justify-between items-center gap-5">
           <h1 className="text-sm md:text-base tracking-wider text-site-white">
-            &copy;2024 Dominion. all rights reserved
+            &copy;2025 Dominion. all rights reserved
           </h1>
           <h1 className="text-sm md:text-base text-site-white">
             Proudly Designed &amp; Developed by{" "}

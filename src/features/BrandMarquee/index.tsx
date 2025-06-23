@@ -15,9 +15,11 @@ export default function BrandMarquee() {
           { image: "/brand-logo/Appifinity-Logo.png" },
           { image: "/brand-logo/LevelPlay-Logo.png" },
           { image: "/brand-logo/SMSFLC-Logo.png" },
+          { image: "/brand-logo/yurhub-logo.png" },
           { image: "/brand-logo/Appifinity-Logo.png" },
           { image: "/brand-logo/LevelPlay-Logo.png" },
           { image: "/brand-logo/SMSFLC-Logo.png" },
+          { image: "/brand-logo/yurhub-logo.png" },
         ]}
       />
     </div>
