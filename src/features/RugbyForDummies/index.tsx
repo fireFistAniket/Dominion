@@ -97,7 +97,7 @@ export default function RugbyForDummies() {
               type="button"
               className="font-medium text-sm lg:text-lg px-3 lg:px-7 py-4 border border-site-white text-site-white transition-colors duration-300 hover:bg-site-white hover:text-site-black"
             >
-              Explore Ebooks
+              Explore Our Ebooks
             </button>
           </div>
         </div>
