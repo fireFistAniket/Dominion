@@ -1,9 +1,6 @@
 "use client";
-import Facebook from "@/icons/Facebook";
 import Instagarm from "@/icons/Instagram";
-import LinkedIn from "@/icons/LinkedIn";
 import TikTok from "@/icons/TikTok";
-import Twitter from "@/icons/Twitter";
 import Youtube from "@/icons/Youtube";
 import { navlinks } from "@/lib/navlinks";
 import { Dancing_Script } from "next/font/google";
