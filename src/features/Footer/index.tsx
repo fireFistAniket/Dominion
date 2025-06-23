@@ -60,7 +60,7 @@ export default function Footer() {
               <div className="flex gap-2">
                 {socialLinks.map((link, index) => (
                   <Link
-                    href="/"
+                    href={link.href}
                     target="_blank"
                     referrerPolicy="no-referrer"
                     key={index}

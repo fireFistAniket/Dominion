@@ -5,10 +5,10 @@ export default function DominionVision() {
     <section className="bg-[url('/custom-bg/dominion-vision-bg.png')] bg-cover bg-no-repeat flex flex-col gap-20 px-4 md:px-0 py-11 md:py-24">
       <div className="flex flex-col items-center justify-center gap-6 md:gap-9">
         <h3 className="text-site-black text-base lg:text-2xl font-medium">
-          What we provide
+          Our Expertise
         </h3>
         <h1 className="text-site-black text-4xl lg:text-6xl font-bold">
-          Dominions Vision
+          Driven by Excellence
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-28">
