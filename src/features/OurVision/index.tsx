@@ -46,14 +46,14 @@ export default function OurVision() {
             <span className="text-site-saffron">Dominion</span>
           </h1>
           <p className="text-sm lg:text-base text-white">
-            At the heart of Dominions lies the vision of Maria and Israel
+            At the heart of Dominion lies the vision of Maria and Israel
             Folau—two international sporting icons who have been blessed to
             compete at the highest levels in Netball and Rugby. Through years of
             elite competition, they have gained invaluable wisdom, discipline,
             and purpose, which they now feel called to share. Anchored deeply in
             their Christian faith, Maria and Israel believe in giving back to
             the community by nurturing the next generation—not just as athletes,
-            but as whole individuals. Dominions is their way of serving others
+            but as whole individuals. Dominion is their way of serving others
             through transformative training programs, inspirational eBooks, and
             powerful nutritional guidance. Whether you dream of sporting
             greatness or simply seek a stronger, better life, Maria and Israel
