@@ -19,13 +19,15 @@ export default function AffilateProgram() {
       <div className="flex flex-col-reverse lg:flex-row gap-14 items-center justify-center">
         <div className="flex flex-col gap-7 lg:max-w-2xl">
           <h1 className="text-4xl lg:text-6xl font-bold text-site-black">
-            Affiliate program that fits{" "}
-            <span className="text-site-white">everyone</span>
+            Join the Dominion Affiliate&nbsp;
+            <span className="text-site-white inline">Program</span>
           </h1>
           <p className="text-site-black text-sm lg:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipin elit. Turpis
-            dignissim Lorem ipsum. Lorem ipsum dolor sit amet, consectetur
-            adipin elit. Turpis dignissim Lorem ipsum.
+            Turn your passion into purpose by promoting our courses, books, and
+            programs—earn generous commissions, exclusive gifts, and VIP rewards
+            along the way. <br />
+            Whether you&apos;re a coach, athlete, or fan, help us inspire others
+            and grow a movement rooted in excellence and impact.
           </p>
           <Dialog>
             <DialogTrigger

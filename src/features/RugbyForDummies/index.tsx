@@ -29,22 +29,21 @@ export default function RugbyForDummies() {
           height={600}
         />
         <div className="flex flex-col gap-2 md:gap-5 lg:max-w-lg">
-          <h3 className="text-sm md:text-2xl font-light text-site-black">
-            THE UNLIMITED GUIDE TO HIT
-          </h3>
           <h1 className="text-site-black font-extrabold text-4xl lg:text-5xl">
-            Rugby For Dummies
+            Books to Inspire and Motivate You
           </h1>
-          <h3 className="text-site-black text-xl lg:text-3xl">
-            Burn Fat, Build Muscle, Get in Shape Fast
-          </h3>
           <p className="text-base lg:text-lg font-light text-site-gray">
-            Lorem ipsum dolor sit amet consectetur. Tellus consectetur vitae
-            arcu interdum. A ut vits venenatis ornare. Risus sed magna Lorem
-            ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet
-            consectetur. Tellus consectetur vitae arcu interdr.
+            Dive into powerful stories, timeless lessons, and real-life wisdom
+            from Maria and Israel Folau. Whether you&apos;re an athlete or just
+            seeking purpose and growth, these books are designed to uplift,
+            guide, and empower you. Unlock inspiration. Fuel your journey. Let
+            these books walk with you.
           </p>
-          <div className="flex items-start gap-6 mt-6">
+          <h3 className="text-base lg:text-lg font-semibold text-site-gray mt-3.5">
+            Fuel your faith, mindset, and leadership with inspiring free and
+            premium reads.
+          </h3>
+          <div className="flex items-start gap-6 mt-2">
             <Dialog>
               <DialogTrigger className="text-site-black font-medium text-sm lg:text-lg px-3 lg:px-7 py-4 bg-site-white hover:bg-transparent hover:text-site-white border border-site-white transition-colors duration-300">
                 Download Now

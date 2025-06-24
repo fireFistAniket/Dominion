@@ -15,8 +15,7 @@ export default function LiveTraining() {
             Watch Our Live Training
           </h1>
           <p className="text-sm text-center text-site-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
-            dignissim.
+            &quot;Be Inspired. Be Awesome. Be Amazing&quot;
           </p>
         </div>
         <div className="bg-site-black p-4">

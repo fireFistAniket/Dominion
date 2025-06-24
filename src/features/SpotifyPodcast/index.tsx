@@ -1,4 +1,3 @@
-import BrodcastCard from "@/components/ui/brodcastcard";
 import { Button } from "@/components/ui/button";
 import Spotify from "@/icons/Spotify";
 import { Headphones, Play } from "lucide-react";
@@ -6,11 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SpotifyPodcast() {
-  const brodCastImg: string[] = [
-    "/podcast/podcast-1.png",
-    "/podcast/podcast-2.png",
-    "/podcast/podcast-3.png",
-  ];
   return (
     <section className="bg-[url('/custom-bg/spotify-bg.png')] md:items-center bg-cover bg-no-repeat flex flex-col justify-center gap-20 px-4 md:px-16 py-11 md:py-24 basis-full lg:basis-[60%] md:mx-auto">
       <h1 className="text-4xl lg:text-5xl font-semibold inline-flex items-center gap-4 md:gap-6 justify-center">
@@ -36,8 +30,9 @@ export default function SpotifyPodcast() {
               Izzy &amp; Maria Show
             </h3>
             <p className="lg:text-base text-sm text-site-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, venenatis
+              Real talk, raw faith, and the untold stories behind the
+              spotlight—join Maria and Izzy as they share heart, humor, and hope
+              every episode.
             </p>
           </div>
           <div className="flex items-center">
@@ -62,33 +57,41 @@ export default function SpotifyPodcast() {
           <div className="flex flex-col gap-7">
             {[
               {
-                cover: "/podcast/trending-show-1.png",
-                title: "Thế Giới Của Em",
+                cover: "/podcast/maria-izzy-cover.jpg",
+                title: "Maria & Izzy - Lukewarm Season",
                 count: "311",
+                href: "https://open.spotify.com/episode/33LOvAxWZw0SXd5KopNy3M?si=a65BXtMRSm6u0wZsViSCpw",
               },
               {
-                cover: "/podcast/trending-show-2.png",
-                title: "Thế Giới Của Em",
-                count: "311",
+                cover: "/podcast/maria-izzy-cover.jpg",
+                title: "The Izzy & Maria Show - with Eddie Pettybourne",
+                count: "425",
+                href: "https://open.spotify.com/episode/7ewe4aXSoVDeEt9rFJQhdc?si=N66Mxg5oQCu1ZnHWSWSVwA",
               },
               {
-                cover: "/podcast/trending-show-3.png",
-                title: "Thế Giới Của Em",
-                count: "311",
+                cover: "/podcast/maria-izzy-cover.jpg",
+                title: "The Izzy & Maria Show - with Kylie Jensen",
+                count: "320",
+                href: "https://open.spotify.com/episode/381jnEf4xfyU4N5G7yv2Qx?si=_IZGvdmoRhqdo2k0flujOg",
               },
               {
-                cover: "/podcast/trending-show-4.png",
-                title: "Thế Giới Của Em",
-                count: "311",
+                cover: "/podcast/maria-izzy-cover.jpg",
+                title: "The Izzy & Maria Show - with Samu Karevi",
+                count: "389",
+                href: "https://open.spotify.com/episode/2pwsgOzahFpS14aDwvgoAT?si=X4W_NM3SSLWVHfo-5R5yHA",
               },
               {
-                cover: "/podcast/trending-show-5.png",
-                title: "Thế Giới Của Em",
-                count: "311",
+                cover: "/podcast/maria-izzy-cover.jpg",
+                title: "The Izzy & Maria Show - with Mitchell Orval",
+                count: "427",
+                href: "https://open.spotify.com/episode/4x3U6gtRAFFZ31rzuVq6GV?si=Ir_BbNCmQ0-dNarIJx6hGA",
               },
             ].map((item, index) => (
-              <div
+              <Link
                 key={index}
+                href={item.href}
+                target="_blank"
+                referrerPolicy="no-referrer"
                 className="flex bg-site-black py-3 px-8 gap-4 transition-all duration-500 hover:scale-110"
               >
                 <Image
@@ -110,7 +113,7 @@ export default function SpotifyPodcast() {
                 <button type="button" className="text-[#A5A5A5]">
                   <Play />
                 </button>
-              </div>
+              </Link>
             ))}
           </div>
           <Link

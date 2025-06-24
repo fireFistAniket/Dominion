@@ -39,19 +39,25 @@ export default function OurVision() {
         </div>
         <div className="flex flex-col gap-6 lg:max-w-md xl:max-w-xl self-center">
           <h3 className="font-semibold text-sm lg:text-xl text-white uppercase tracking-wider">
-            MARIA FOLAU &amp; Israel Folau
+            Maria Folau &amp; Israel Folau
           </h3>
           <h1 className="font-bold text-3xl lg:text-5xl text-white capitalize">
             Our Vision to create{" "}
-            <span className="text-site-saffron">Dominions</span>
+            <span className="text-site-saffron">Dominion</span>
           </h1>
           <p className="text-sm lg:text-base text-white">
-            Lorem ipsum dolor sit amet consectetur. Viverra eu urna tortor
-            pellentesque duis quam. Placerat sed mattis et cursus elementum.
-            Pretium varius condimentum lobortis diam lectus viverra. Scelerisque
-            magna hendrerit nisl quis eget. Aliquam urna placerat ac ipsum proin
-            morbi. Lorem ipsum dolor sit amet consectetur. Viverra eu urna
-            tortor pellentesque duis quam.
+            At the heart of Dominions lies the vision of Maria and Israel
+            Folau—two international sporting icons who have been blessed to
+            compete at the highest levels in Netball and Rugby. Through years of
+            elite competition, they have gained invaluable wisdom, discipline,
+            and purpose, which they now feel called to share. Anchored deeply in
+            their Christian faith, Maria and Israel believe in giving back to
+            the community by nurturing the next generation—not just as athletes,
+            but as whole individuals. Dominions is their way of serving others
+            through transformative training programs, inspirational eBooks, and
+            powerful nutritional guidance. Whether you dream of sporting
+            greatness or simply seek a stronger, better life, Maria and Israel
+            welcome you to walk this journey with them.
           </p>
           <Link
             href="/training"

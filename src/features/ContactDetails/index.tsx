@@ -22,17 +22,19 @@ export default function ContactDetails() {
 
   return (
     <section className="bg-site-black flex flex-col lg:flex-row lg:justify-between px-4 lg:px-40 py-9 lg:py-28 gap-20">
-      <div className="flex flex-col gap-16 xl:max-w-xl self-center">
+      <div className="flex flex-col gap-16 xl:max-w-4xl self-center">
         <div className="flex flex-col gap-10">
           <h3 className="text-site-saffron text-base md:text-2xl font-medium">
             Contact Us
           </h3>
           <h1 className="text-site-white text-4xl md:text-5xl font-medium">
-            We are always ready to help you and answer your questions
+            We&apos;re always here to support you—ready to answer your
+            questions, listen to your thoughts, and walk alongside you on your
+            journey.
           </h1>
           <p className="font-light text-site-white text-sm md:text-xl">
-            Lorem ipsum dolor sit amet consectetur. Volutpat proin id turpis eu
-            neque sit etiam nec quisque. Cras quam dignissim blandit metus
+            No question is too small—reach out anytime and let us know how we
+            can make your experience even better.
           </p>
         </div>
         <div className="flex md:grid grid-cols-2 flex-col gap-10">
@@ -87,8 +89,8 @@ export default function ContactDetails() {
             Get in touch with us!
           </h1>
           <p className="text-sm text-site-white">
-            Lorem ipsum dolor sit amet consectetur. Volutpat proin id turpis eu
-            neque sit
+            Fill in your details and message us and we&apos;ll get back to you
+            as soon as possible.
           </p>
         </div>
         <div className="flex flex-col gap-8 md:px-11">

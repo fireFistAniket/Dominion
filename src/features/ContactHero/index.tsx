@@ -17,11 +17,12 @@ export default function ContactHero() {
           </div>
           <div className="absolute lg:static bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 bg-site-black/80 z-10 flex flex-col items-center justify-end md:justify-center w-full p-4 gap-6 h-[50%]">
             <h1 className="font-semibold text-site-white text-4xl text-center">
-              Contact Us
+              We&apos;re Here for You
             </h1>
             <p className="text-sm font-light text-site-white/70 text-center">
-              Lorem ipsum dolor sit amet consectetur. Volutpat proin id turpis
-              eu neque sit etiam.
+              With open hearts and listening ears, we welcome your questions,
+              feedback, or anything you&apos;d like to share—your journey matters to
+              us.
             </p>
           </div>
         </div>

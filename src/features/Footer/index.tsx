@@ -41,14 +41,13 @@ export default function Footer() {
           <div className="flex flex-col gap-9">
             <Image
               src="/logo.png"
-              width={379}
-              height={79}
+              width={350}
+              height={75}
               alt="logo"
               className=""
             />
             <p className="text-sm font-light text-site-white/60">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod sit.
+              Shaping Champions, Inspiring Lives.
             </p>
             <div className="flex flex-col gap-3">
               <h3 className="text-base font-semibold text-site-white">

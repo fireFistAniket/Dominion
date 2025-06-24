@@ -72,17 +72,15 @@ export default function Slider() {
               <div className="absolute top-0 left-0 lg:w-full h-full flex justify-center items-end bg-black/50 pb-12">
                 <div className="max-w-lg lg:max-w-6xl flex flex-col gap-4 mb-10 md:mx-auto">
                   <h2 className="text-base md:text-2xl text-center block text-site-white tracking-widest">
-                    INTERNATIONAL NETBALL &amp; RUGBY STAR
+                    International Rugby &amp; Netball Sensations
                   </h2>
                   <h1 className="uppercase text-site-white text-4xl md:text-6xl text-center tracking-widest font-bold">
-                    MARIA FOLAU &amp; Israel Folau
+                    Maria Folau &amp; Israel Folau
                   </h1>
                   <p className="text-center font-light text-sm md:text-base text-site-white line-clamp-2 md:line-clamp-none mt-5 mx-4 md:mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    eiusmod do tempor incididunt ut labore et dolore magna
-                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                    &quot;Anchored in faith, sustained by love, strengthened
+                    through perseverance - in truth we learn, and in joy we
+                    shine&quot;
                   </p>
                   <Link
                     href="#our-vision"

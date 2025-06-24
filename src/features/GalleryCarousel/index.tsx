@@ -104,8 +104,13 @@ export default function GalleryCarousel() {
         <h1 className="font-bold text-4xl text-site-white text-center">
           The journey of our lives
         </h1>
-        <p className="text-xs font-light text-site-white text-center max-w-[53vw]">
-          Lorem ipsum dolor sit amet consectetur. Volutpat proin id turpis eu.
+        <p className="text-sm font-light text-site-white text-center max-w-[53vw]">
+          A glimpse into our shared path—of love, faith, and the moments that
+          shaped us both on and off the field.
+        </p>
+        <p className="text-sm font-light text-site-white text-center max-w-[53vw]">
+          These memories are more than pictures—they&apos;re reflections of the
+          life, grace, and purpose we walk together.
         </p>
       </div>
     </section>

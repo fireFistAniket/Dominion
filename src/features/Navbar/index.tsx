@@ -82,7 +82,7 @@ export default function Navbar() {
             width={302}
             height={63}
             alt="logo"
-            className="w-[37.8vw] lg:w-[15.72vw]"
+            className="w-[37.8vw] lg:w-[12.72vw]"
           />
           <span className="sr-only">Dominion</span>
         </Link>
