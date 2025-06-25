@@ -19,7 +19,7 @@ export default function ContactHero() {
             <h1 className="font-semibold text-site-white text-4xl text-center">
               We&apos;re Here for You
             </h1>
-            <p className="text-sm font-light text-site-white/70 text-center">
+            <p className="text-base text-site-white/70 text-center">
               With open hearts and listening ears, we welcome your questions,
               feedback, or anything you&apos;d like to share—your journey matters to
               us.

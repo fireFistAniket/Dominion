@@ -10,7 +10,7 @@ export default function DominionVision() {
         <h1 className="text-site-black text-4xl lg:text-6xl font-bold">
           Driven by Excellence
         </h1>
-        <h5 className="text-site-black text-sm lg:text-base">
+        <h5 className="text-site-black text-sm lg:text-base font-semibold">
           At Dominion, Maria and Israel Folau bring world-class experience and
           heartfelt purpose into their every offering—crafted to help you rise
           in sport and in life.

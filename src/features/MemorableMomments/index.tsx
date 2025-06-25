@@ -71,7 +71,7 @@ export default function MemorableMomments() {
         <h1 className="text-4xl font-semibold text-center text-site-white">
           Memorable Moments
         </h1>
-        <p className="text-sm font-light text-center text-site-white">
+        <p className="text-base font-light text-center text-site-white">
           Snapshots of passion, purpose, and play—capturing the milestones that
           made our journey unforgettable.
         </p>

@@ -77,7 +77,7 @@ export default function Slider() {
                   <h1 className="uppercase text-site-white text-4xl md:text-6xl text-center tracking-widest font-bold">
                     Maria Folau &amp; Israel Folau
                   </h1>
-                  <p className="text-center font-light text-sm md:text-base text-site-white line-clamp-2 md:line-clamp-none mt-5 mx-4 md:mx-auto">
+                  <p className="text-center text-sm md:text-base text-site-white line-clamp-2 md:line-clamp-none mt-5 mx-4 md:mx-auto font-semibold">
                     &quot;Anchored in faith, sustained by love, strengthened
                     through perseverance - in truth we learn, and in joy we
                     shine&quot;

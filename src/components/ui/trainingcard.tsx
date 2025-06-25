@@ -32,7 +32,7 @@ export default function TrainingCard({
             </span>
           </h4>
         </div>
-        <p className="text-sm lg:text-base text-site-white line-clamp-3">
+        <p className="text-sm lg:text-base text-site-white">
           {data.description}
         </p>
       </div>

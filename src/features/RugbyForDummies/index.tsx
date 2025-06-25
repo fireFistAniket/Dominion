@@ -73,11 +73,11 @@ export default function RugbyForDummies() {
                     />
                     <Select>
                       <SelectTrigger className="outline-none text-site-black/50 text-sm lg:text-base">
-                        <SelectValue placeholder="Choose Sports" />
+                        <SelectValue placeholder="Choose Books" />
                       </SelectTrigger>
                       <SelectContent className="outline-none text-site-black/50 text-sm lg:text-base">
-                        <SelectItem value="light">Rugby</SelectItem>
-                        <SelectItem value="dark">NetBall</SelectItem>
+                        <SelectItem value="light">The Champion in You</SelectItem>
+                        <SelectItem value="dark">Why Faith Matters Most</SelectItem>
                       </SelectContent>
                     </Select>
                     <Input

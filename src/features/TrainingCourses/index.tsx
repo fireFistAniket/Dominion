@@ -8,14 +8,14 @@ export default function TrainingCourses() {
         <h1 className="text-4xl lg:text-5xl inline-flex flex-col gap-6 font-bold text-site-white capitalize">
           Train Like a Pro - Courses &amp; Nutrition for Peak Performance
         </h1>
-        <p className="text-sm lg:text-2xl text-site-white lg:max-w-3xl">
+        <p className="text-sm lg:text-lg text-site-white lg:max-w-4xl">
           Unlock access to expert-led training courses in netball, designed by
           Maria and top athletes to boost your skills, game sense, and
-          confidence. <br />
+          confidence. <br /> <br />
           Complement your growth with practical nutritional videos that fuel
-          performance, recovery, and overall well-being. <br />
+          performance, recovery, and overall well-being. <br /> <br />
           Each course and video is crafted to help you perform at your best—on
-          and off the court. <br />
+          and off the court. <br /> <br />
           Start your journey today through our easy-access online store.
         </p>
         <Button

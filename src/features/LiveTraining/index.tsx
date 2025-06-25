@@ -14,7 +14,7 @@ export default function LiveTraining() {
           <h1 className="text-4xl font-semibold text-center text-site-white">
             Watch Our Live Training
           </h1>
-          <p className="text-sm text-center text-site-white">
+          <p className="text-lg font-medium text-center text-site-white">
             &quot;Be Inspired. Be Awesome. Be Amazing&quot;
           </p>
         </div>

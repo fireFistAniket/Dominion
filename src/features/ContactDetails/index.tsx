@@ -24,15 +24,15 @@ export default function ContactDetails() {
     <section className="bg-site-black flex flex-col lg:flex-row lg:justify-between px-4 lg:px-40 py-9 lg:py-28 gap-20">
       <div className="flex flex-col gap-16 xl:max-w-4xl self-center">
         <div className="flex flex-col gap-10">
-          <h3 className="text-site-saffron text-base md:text-2xl font-medium">
+          <h3 className="text-site-saffron text-lg md:text-3xl font-bold">
             Contact Us
           </h3>
-          <h1 className="text-site-white text-4xl md:text-5xl font-medium">
+          <h1 className="text-site-white text-3xl md:text-5xl">
             We&apos;re always here to support you—ready to answer your
             questions, listen to your thoughts, and walk alongside you on your
             journey.
           </h1>
-          <p className="font-light text-site-white text-sm md:text-xl">
+          <p className="font-light text-site-white text-base md:text-2xl">
             No question is too small—reach out anytime and let us know how we
             can make your experience even better.
           </p>
@@ -60,7 +60,7 @@ export default function ContactDetails() {
               EMAIL ID
             </h2>
             <p className="text-site-white text-sm md:text-base font-extralight">
-              mnbmnlg5663@gmail.com
+              dominionvision7@gmail.com
             </p>
           </div>
           <div className="flex flex-col gap-3">
@@ -88,7 +88,7 @@ export default function ContactDetails() {
           <h1 className="text-[#FBF5FF] font-semibold text-xl capitalize">
             Get in touch with us!
           </h1>
-          <p className="text-sm text-site-white">
+          <p className="text-sm md:text-base text-site-white font-semibold">
             Fill in your details and message us and we&apos;ll get back to you
             as soon as possible.
           </p>
